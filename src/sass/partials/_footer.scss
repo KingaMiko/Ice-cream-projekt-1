@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  max-height: 247px;
+  width: 100%;
+  background-color: var(--secondary-bg-color);
+  &__contact-container {
+    background-color: var(--secondary-bg-color);
+  }
+  &__icon-container {
+    padding: 0;
+    margin-bottom: 223px;
+    margin-right: 121px;
+  }
+  &__list {
+    display: flex;
+    gap: 24px;
+  }
+  &__icon {
+    max-height: 34px;
+    max-width: 34px;
+    fill: var(--third-text-color);
+  }
+  &__icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icon-bg-color);
+    background-color: var(--icon-bg-color);
+    border-radius: 50px;
+  }
+
+  &__icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

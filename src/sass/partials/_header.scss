@@ -98,7 +98,7 @@ header {
     border: none;
     width: 160px;
     height: 44px;
-    padding: 12px 47px;
+    padding: 12px 37px;
     font-family: var(--main-font-family);
     color: var(--accent-color);
     font-size: 16px;
@@ -107,6 +107,10 @@ header {
     border: none;
     cursor: pointer;
     display: none;
+    &:hover {
+      background-color: var(--bcg-hover-button-secondary);
+      transition: var(--transition-standard);
+    }
 
     @include tablet {
       display: flex;
@@ -267,6 +271,10 @@ header {
     }
     &--second {
       color: var(--accent-color);
+      &:hover {
+        background-color: var(--bcg-hover-button-secondary);
+        transition: var(--transition-standard);
+      }
     }
   }
 }
@@ -307,7 +315,7 @@ header {
 
     &__icon {
       border-radius: 50px;
-          }
+    }
   }
 
   @include desktop {
