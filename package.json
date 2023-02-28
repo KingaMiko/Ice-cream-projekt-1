@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://github.com/KingaMiko/Ice-cream-projekt-1",
+  "homepage": "https://github.com/aleksandra-zablocka/Ice-cream-projekt-1",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Ice-cream-projekt-1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KingaMiko/Ice-cream-projekt-1.git"
+    "url": "git+https://github.com/aleksandra-zablocka/Ice-cream-projekt-1.git"
   },
   "keywords": [],
-  "author": "Kinga Mikolajczyk <kinga.mikola@gmail.com>",
+  "author": "Aleksandra Zabłocka <aleksandra-zablocka@o2.pl>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KingaMiko/Ice-cream-projekt-1/issues"
+    "url": "https://github.com/aleksandra-zablocka/Ice-cream-projekt-1/issues"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.3",
