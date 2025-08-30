@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-modal-menu-open]"),closeModalBtn:document.querySelector("[data-modal-menu-close]"),modal:document.querySelector("[data-modal-menu]"),menuLinks:document.querySelectorAll(".modal-menu__link")};function n(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",n),e.closeModalBtn.addEventListener("click",n),e.menuLinks.forEach((n=>{n.addEventListener("click",(()=>{e.modal.classList.add("is-hidden")}))}))})();
+//# sourceMappingURL=index.70fddba1.js.map
